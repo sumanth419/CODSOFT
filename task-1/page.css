@@ -1,0 +1,281 @@
+*{
+    text-decoration: none;
+}
+.nav1{
+    background: linear-gradient(to right, red 0%, orange 50%, orangered 100%); 
+    font-family: calibri;
+    padding-left: 70px;
+    padding-right: 10px;
+}
+.div1{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.icons{
+    background-color: aliceblue;
+    color: tomato;
+    padding: 5px;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+.fa-solid{
+    background: aliceblue;
+    color: tomato;
+    justify-content: space-between;
+    padding: 3px;
+    border-radius: 30px;
+}
+.fa-regular{
+    background: aliceblue;
+    color: tomato;
+    justify-content: space-between;
+    padding: 3px;
+    border-radius: 30px;
+}
+.button1{
+    border-radius: 20px;
+    padding: 4px;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+.button2{
+    border-radius: 20px;
+    padding: 4px;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+.button1:hover{
+    background: linear-gradient(to left, rgb(247, 158, 243) 0%, rgb(32, 243, 113) 50%, rgb(255, 218, 33) 100%);
+}
+.button2:hover{
+    background: linear-gradient(to right, rgb(246, 145, 239) 0%, rgb(32, 243, 113) 50%, rgb(252, 229, 27) 100%);
+}
+/*Nav 2 starts here-------------------*/
+.nav2{
+    background:rgb(235, 242, 236);
+    font-family: Cambria;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo i{
+    margin-left: 80px;
+    margin-right: 5px;
+    margin-top: 25px;
+    font-size: 35px;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 550;
+    color: rgb(27, 26, 26);
+    border-radius: 30px;
+    text-shadow: 0 0 0 #33333333;
+    word-spacing: 3px;
+    background: linear-gradient(to right, orange 0%,red 20%, aliceblue 30%,yellow 50%,rgb(104, 104, 250) 70%, white 80%,violet 90%,lightgreen 100%);
+
+}
+li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+li a{
+    color: black; font-size: 15px; font-weight: bold; margin-right: 25px; margin-left: 25px;
+}
+.lp:hover{
+    background-color: black;
+    padding: 2px;
+}.lp a:hover{
+    color: white;
+}
+/* slider starts here---------------*/
+.container{
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 0;
+}
+.slider{
+    width: 100%;
+    max-width: 1400px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+.slides{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    animation: slide 13s infinite;
+}
+.slide{
+    width: 100%;
+    flex-shrink: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.text-overlay h3 {
+    border-radius: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    color: yellow;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.text-overlay button {
+    color: orangered;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px red;
+    font-size: 16px;
+}
+.text-overlay button:hover{
+    color: black;
+    background: linear-gradient(to right, red 0%, orange 50%, orangered 100%);
+}
+.text-overlay p{
+    color: whitesmoke;
+    font-size: 15px;
+}
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33.33% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+/*nav 3 start here */
+.nav3{
+    background:linear-gradient(to right, red 0%, orange 50%, orangered 100%);
+    padding: 5px;
+    word-spacing: 2px;
+}
+.con1{
+    background: rgb(255, 166, 0);
+    padding: 10px;
+    padding-right: 150px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 30px;
+}
+.con2{
+    background: white;
+    padding: 10px;
+    padding-right: 150px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 30px;
+}
+.con3{
+    background: rgb(4, 255, 4);
+    padding: 10px;
+    padding-right: 150px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 30px;
+}
+.fa-duotone h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    margin-bottom: 2px;
+}
+.fa-duotone p{
+    font-size: 14px;
+    color: black;
+    font-family: italic;
+}
+/*About start here-----------*/
+.world{
+    width: 100%;
+    margin-bottom: 100px;
+    opacity: 0.3;
+}
+.updown{
+    position: absolute;
+    top: 120%;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    background: transparent;
+    border-top: 5px double rgb(234, 7, 212);
+    border-bottom: 3px outset rgb(44, 253, 239);
+    box-shadow: inset 0 0 0 2px orange, inset 0 0 0 4px orangered;
+    padding: 100px 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.read{
+    display: none;
+}
+.more-text{
+    display: none;
+}
+.read:checked ~ .para .more-text{
+    display: inline;
+}
+.read-label{
+    color: rgb(54, 54, 58);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.down{
+    width: 200%;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    box-shadow: 5px 5px 10px rgba(212, 40, 40, 0.5);
+}
+.our{
+    margin-left: 11%;
+    margin-right: 11%;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    background: linear-gradient(to right, orange 0%, orangered 50%, red 100%);
+}
+.ucs{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px pink,
+                 inset 0 0 0 6px rgb(223, 2, 39),
+                    inset 0 0 0 12px rgb(250, 113, 0);
+
+}
+.thank{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background:linear-gradient(to right, yellow 0%, black 20%, orange 50%, red 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.ourservices{
+    border-bottom: 5px solid orchid;
+}
